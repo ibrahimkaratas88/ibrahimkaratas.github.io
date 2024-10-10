@@ -74,3 +74,12 @@ footer {
 footer p {
     margin: 0;
 }
+
+.profile-img {
+    width: 3cm;      /* Set width to 3 cm */
+    height: 4cm;     /* Set height to 4 cm */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    border-radius: 5px; /* Optional: adds slight rounding to the corners */
+    display: block;   /* Center the image if needed */
+    margin: 0 auto;  /* Center the image horizontally */
+}
